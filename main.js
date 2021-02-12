@@ -633,7 +633,7 @@ var a = 0 , c = 1;
 var b = document.getElementById("main").innerHTML;
 function go(){
   if(a==0){
- var f = new Audio("https://thehackedboy.github.io/alice/Audio/Goku.mp3");
+ var f = new Audio("https://thehackedboy.github.io/alice/audio/go.mp3");
  f.play();
   };
 document.getElementById("main").innerHTML= b + d1[a];
@@ -651,6 +651,5 @@ if(a==d1.length){
 var x = setInterval(go,125);
 
 }else{
-  document.getElementById("mus").removeAttribute("autoplay");
   document.getElementById("main").innerHTML = "Sorry This Is Not For You Because You Are Not Alice"
 }
