@@ -633,7 +633,7 @@ var a = 0 , c = 1;
 var b = document.getElementById("main").innerHTML;
 function go(){
   if(a==0){
- var f = new Audio("https://thehackedboy.github.io/day1/Audio/Goku.mp3");
+ var f = new Audio("https://thehackedboy.github.io/alice/Audio/Goku.mp3");
  f.play();
   };
 document.getElementById("main").innerHTML= b + d1[a];
