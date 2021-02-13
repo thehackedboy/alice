@@ -634,7 +634,7 @@ var b = document.getElementById("main").innerHTML;
 function go(){
   if(a==0){
  var f = new Audio("https://thehackedboy.github.io/alice/audio/go.mp3");
- f.play();
+ //f.play();
   };
 document.getElementById("main").innerHTML= b + d1[a];
 b = b + d1[a];
@@ -648,7 +648,7 @@ if(a==d1.length){
 }
 };
 
-var x = setInterval(go,125);
+var x = setInterval(go,130);
 
 }else{
   document.getElementById("main").innerHTML = "Sorry This Is Not For You Because You Are Not Alice"
